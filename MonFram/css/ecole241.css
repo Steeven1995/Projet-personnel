@@ -1,0 +1,348 @@
+/*!
+ =========================================================
+ * Ecole241 GRILLES css - v1.0.0
+ =========================================================
+
+ *Designed by Gabin Steeven
+
+ =========================================================
+ * 
+ */
+
+
+
+
+
+
+ /*!
+ =========================================================
+	CONFIGURATION DE BASE
+ =========================================================
+ * 
+ */
+
+ *{
+ 	-webkit-box-sizing:border-box;
+ 		-moz-box-sizing:border-box;
+ 			-ms-box-sizing:border-box;
+ 				-o-box-sizing:border-box;
+ 					box-sizing:border-box;
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+body{
+	font-family: Arial;
+	margin: 0;
+}
+h1{
+	font-size: 38px;
+	font-weight: lighter;
+}
+h2{
+	font-size: 34px;
+	font-weight: lighter;
+}
+
+h3{
+	font-size: 30px;
+	font-weight: lighter;
+}
+h4{
+	font-size: 26px;
+	font-weight: lighter;
+}
+h5{
+	font-size: 22px;
+	font-weight: lighter;
+}
+h6{
+	font-size: 18px;
+	font-weight: lighter;
+}
+p{
+	font-weight: lighter;
+	font-size: 16px;
+}
+.centre{
+	text-align: center;
+}
+.droite{
+	float: right;
+}
+.small{
+	width: 375px;
+}
+.justifier{
+	text-align:justify; 
+	text-justify:newspaper;
+}
+
+/*!
+ =========================================================
+	Creation des Grilles Responsives
+ =========================================================
+ * 
+ */
+
+.content{
+	margin: 0 auto;
+	width: 90%;
+	margin-left: 5%;
+}
+.content-full{
+	margin: 0;
+	width: 100%;
+}
+.container{
+	width: auto;
+}
+.col-1{width: 8.33%; float:left;position: relative; padding: 0 10px;}
+.col-2{width: 16.66%; float:left;position: relative; padding: 0 10px;}
+.col-3{width: 25%; float:left;position: relative; padding: 0 10px;}
+.col-4{width: 33.33%; float:left;position: relative; padding: 0 10px;}
+.col-5{width: 41.66%; float:left;position: relative; padding: 0 10px;}
+.col-6{width: 50%; float:left;position: relative; padding: 0 10px;}
+.col-7{width: 58.33%; float:left;position: relative; padding: 0 10px;}
+.col-8{width: 66.66%; float:left;position: relative; padding: 0 10px;}
+.col-9{width: 75%; float:left;position: relative; padding: 0 10px;}
+.col-10{width: 83.33%; float:left;position: relative; padding: 0 10px;}
+.col-11{width: 91.66%; float:left;position: relative; padding: 0 10px;}
+.col-12{width: 100%; float:left;position: relative; padding: 0 10px;}
+
+.border{
+	height: auto;
+	padding: 1%;
+	font-weight: 100;
+	border: 1px solid gray;
+}
+
+@media screen and (max-width: 1024px)
+{
+ .col-1{width: 8.33%; float:left;position: relative; padding: 0 5px;}
+.col-2{width: 16.66%; float:left;position: relative; padding: 0 5px;}
+.col-3{width: 25%; float:left;position: relative; padding: 0 5px;}
+.col-4{width: 33.33%; float:left;position: relative; padding: 0 5px;}
+.col-5{width: 41.66%; float:left;position: relative; padding: 0 5px;}
+.col-6{width: 50%; float:left;position: relative; padding: 0 5px;}
+.col-7{width: 58.33%; float:left;position: relative; padding: 0 5px;}
+.col-8{width: 66.66%; float:left;position: relative; padding: 0 5px;}
+.col-9{width: 75%; float:left;position: relative; padding: 0 5px;}
+.col-10{width: 83.33%; float:left;position: relative; padding: 0 5px;}
+.col-11{width: 91.66%; float:left;position: relative; padding: 0 5px;}
+.col-12{width: 100%; float:left;position: relative; padding: 0 5px;}
+}
+
+
+@media screen and (max-width: 468px)
+{
+ .col-1{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-2{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-3{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-4{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-5{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-6{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-7{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-8{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-9{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-10{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-11{width: 100%; float:left;position: relative; padding: 0 3px;}
+.col-12{width: 100%; float:left;position: relative; padding: 0 3px;}
+
+ .col-1-pt{width: 8.33%; float:left;position: relative; padding: 0 3px;}
+.col-2-pt{width: 16.66%; float:left;position: relative; padding: 0 3px;}
+.col-3-pt{width: 25%; float:left;position: relative; padding: 0 3px;}
+.col-4-pt{width: 33.33%; float:left;position: relative; padding: 0 3px;}
+.col-5-pt{width: 41.66%; float:left;position: relative; padding: 0 3px;}
+.col-6-pt{width: 50%; float:left;position: relative; padding: 0 3px;}
+.col-7-pt{width: 58.33%; float:left;position: relative; padding: 0 3px;}
+.col-8-pt{width: 66.66%; float:left;position: relative; padding: 0 3px;}
+.col-9-pt{width: 75%; float:left;position: relative; padding: 0 3px;}
+.col-10-pt{width: 83.33%; float:left;position: relative; padding: 0 3px;}
+.col-11-pt{width: 91.66%; float:left;position: relative; padding: 0 3px;}
+.col-12-pt{width: 100%; float:left;position: relative; padding: 0 3px;}
+
+
+.col-1-pt-disp{display: none;}
+.col-2-pt-disp{display: none;}
+.col-3-pt-disp{display: none;}
+.col-4-pt-disp{display: none;}
+.col-5-pt-disp{display: none;}
+.col-6-pt-disp{display: none;}
+.col-7-pt-disp{display: none;}
+.col-8-pt-disp{display: none;}
+.col-9-pt-disp{display: none;}
+.col-10-pt-disp{display: none;}
+.col-11-pt-disp{display: none;}
+.col-12-pt-disp{display: none;}
+}
+
+/*!
+ =========================================================
+	Creation des images/Video/fenetres Responsives
+ =========================================================
+ * 
+ */
+img.img-resp{
+	width: 100%;
+	margin: 2px;
+}
+video.video-resp{
+	width: 100%;
+}
+img.rond{
+	border-radius: 50%;
+}
+
+/*!
+ =========================================================
+	BUTTON SIZE
+ =========================================================
+ * 
+ */
+
+ .btn{
+ 	display: block;
+ 	border-radius: 3px;
+ 	width: gray;
+ 	width: 90px;
+ 	height: 40px;
+ 	margin: 2px;
+ 	padding: 2px;
+ 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .2);
+ }
+
+ /*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+
+.close:hover,
+.close:focus {
+  box-shadow: 
+    inset -3.5em 0 0 0 var(--hover),
+    inset 3.5em 0 0 0 var(--hover);  
+}
+
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+
+.offset {  
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  &:hover,
+  &:focus {
+    box-shadow: 
+      0 0 0 0 var(--hover),
+      inset 6em 3.5em 0 0 var(--hover);
+  }
+}
+
+//=== Set button colors
+// If you wonder why use Sass vars or CSS custom properties...
+  // Make a map with the class names and matching colors
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b
+);
+
+// Sass variables compile to a static string; CSS variables are dynamic and inherited
+  // Loop through the map and set CSS custom properties using Sass variables
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+// Now every button will have different colors as set above. We get to use the same structure, only changing the custom properties.
+button {  
+  color: var(--color);
+  transition: 0.25s;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+//=== Pen styling, ignore
+body {
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  font: 300 1em 'Fira Sans', sans-serif;
+  
+  // Center everything ever
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+// Basic button styles
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 { font-weight: 400; }
+
+code { 
+  color: #e4cb58;
+  font: inherit;
+}

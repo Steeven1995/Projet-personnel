@@ -1,0 +1,79 @@
+/*!
+ =========================================================
+ * Ecole241 design COlOR css - v1.0.0
+ =========================================================
+
+ *Designed by Gabin Steeven
+
+ =========================================================
+ * 
+ */
+
+
+/*!
+ =========================================================
+	COULEUR DU TEXTE
+ =========================================================
+ * 
+ */
+
+ .text-couleur-rouge{
+ 	color:#DB4437;
+ }
+ .text-couleur-vert{
+ 	color:#0F9D58;
+ }
+ .text-couleur-bleu{
+ 	color:#4285F4;
+ }
+ .text-couleur-jaune{
+ 	color:#F4B400;
+ }
+ .text-couleur-violet{
+ 	color:#7A03CA;
+ }
+ .text-couleur-blanc{
+ 	color:#F2F22F;
+ }
+ .text-couleur-noir{
+ 	color:#020202;
+ }
+ .text-couleur-orange{
+ 	color:#FF9900;
+ }
+
+
+
+/*!
+ =========================================================
+	COULEUR DE L'ARRIERE PLAN
+ =========================================================
+ * 
+ */
+.ap-couleur-rouge{
+	background-color:#DB4437;
+}
+.ap-couleur-bleu{
+	background-color:#4285F4;
+}
+.ap-couleur-jaune{
+	background-color:#F4B400;
+}
+.ap-couleur-violet{
+	background-color:#7A03CA;
+}
+.ap-couleur-blanc{
+	background-color:#F2F22F;
+}
+.ap-couleur-noir{
+	background-color:#020202;
+}
+.ap-couleur-gris{
+	background-color:#B0B0B0;
+}
+.ap-couleur-orange{
+	background-color:#FF9900;
+}
+.ap-couleur-vert{
+	background-color:#0F9D58;
+}
