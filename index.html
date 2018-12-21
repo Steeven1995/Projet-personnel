@@ -51,7 +51,7 @@
    $("#connexion_form").on('submit',(function(e) {
     e.preventDefault();
     $.ajax({
-     url: "http://192.168.1.83./comptabilite/php/connexion.php",
+     url: "http://192.168.1.83/comptabilite/php/connexion.php",
      type: "POST",
      data:  new FormData(this),
      contentType: false,
