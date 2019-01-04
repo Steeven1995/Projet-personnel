@@ -1,0 +1,20 @@
+result : [
+    {
+    "nameCategorie":"Accessoire",
+		"idCategorie":2,
+		"magazin":[
+		    { "libelle":"Telephone", "id_mag": 1 },
+		    { "libelle":"Ordinateur", "id_mag":2 },
+		    { "libelle":"Jouet", "id_mag": 3 }
+		]
+	},
+    {
+    	"nameCategorie":"Vetement",
+    	"idCategorie":3,
+    	"magazin":[
+		    { "libelle":"EvanShop", "id_mag": 1 },
+		    { "libelle":"CitySport", "id_mag":2 },
+		    { "libelle":"ModelDesign", "id_mag": 3 }
+		]
+    },
+ ]
